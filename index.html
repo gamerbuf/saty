@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeloX — Технологии твоих побед</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&family=Montserrat:wght@300;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Фоновые слои -->
+    <div class="fixed-bg"></div>
+    <div class="grid-overlay"></div>
+
+    <nav class="navbar">
+        <div class="logo">VELO<span>X</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">О бренде</a></li>
+            <li><a href="#tech">Инновации</a></li>
+            <li><a href="#catalog">Линейки</a></li>
+            <li><a href="#register">Клуб</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-text">
+            <h1 class="glitch">VeloX <span class="red">Elite</span></h1>
+            <p>Мы не просто создаем велосипеды. Мы проектируем расширение ваших возможностей. Углеродное волокно T1100, аэродинамика уровня болидов F1 и беспроводные системы управления.</p>
+            <div class="race-box">
+                <input type="checkbox" id="race">
+                <label for="race" class="btn-main">Тест-драйв системы</label>
+                <div class="track">
+                    <div class="rider">🚴‍♂️</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="info-section">
+        <div class="container">
+            <h2 class="section-title">Философия VeloX</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>01. Аэродинамика</h3>
+                    <p>Каждая труба рамы прошла 400 часов тестов в аэродинамической трубе. Сопротивление снижено на 12.4% по сравнению с моделями 2025 года.</p>
+                </div>
+                <div class="about-card">
+                    <h3>02. Вес</h3>
+                    <p>Использование графенового напыления позволило снизить вес рамы до рекордных 690 грамм без потери жесткости на скручивание.</p>
+                </div>
+                <div class="about-card">
+                    <h3>03. Интеллект</h3>
+                    <p>Встроенные датчики давления в шинах и автоматическая подстройка подвески в реальном времени под тип дорожного покрытия.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="catalog" class="catalog">
+        <h2 class="section-title">Актуальный модельный ряд</h2>
+        <div class="product-grid">
+            <article class="product-card">
+                <div class="badge">PRO</div>
+                <img src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?w=600" alt="VeloX Road">
+                <div class="p-content">
+                    <h3>VeloX Strato X1</h3>
+                    <p>Шоссейный монстр для тех, кто живет скоростью. Групсет Shimano Dura-Ace Di2.</p>
+                    <span class="price">420 000 ₽</span>
+                </div>
+            </article>
+            <article class="product-card">
+                <div class="badge">MTB</div>
+                <img src="https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?w=600" alt="VeloX MTB">
+                <div class="p-content">
+                    <h3>Apex Trail 29</h3>
+                    <p>Двухподвес с ходом 160мм. Покоряйте горы, которые раньше казались неприступными.</p>
+                    <span class="price">315 000 ₽</span>
+                </div>
+            </article>
+        </div>
+    </section>
+<section class="tech-gallery">
+        <h2 class="section-title">Совершенство в деталях</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1511994298241-608e28f14f66?w=800" alt="Frame detail">
+                <div class="gallery-overlay">
+                    <span>Узлы трансмиссии</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=800" alt="Carbon wheel">
+                <div class="gallery-overlay">
+                    <span>Карбоновое плетение</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1501147830916-ce44a6359892?w=800" alt="Cockpit">
+                <div class="gallery-overlay">
+                    <span>Интегрированный кокпит</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="register" class="register">
+        <div class="glass-form">
+            <h2>Вступить в VeloX Team</h2>
+            <p>Получите доступ к закрытым трассам и предзаказам лимитированных серий.</p>
+            <form>
+                <input type="text" placeholder="Имя" required>
+                <input type="email" placeholder="Email" required>
+                <select>
+                    <option>Ваш уровень</option>
+                    <option>Любитель</option>
+                    <option>Атлет</option>
+                    <option>Профи</option>
+                </select>
+                <button type="submit" class="btn-submit">Отправить запрос</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 VeloX Technologies. Лаборатория скорости. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
